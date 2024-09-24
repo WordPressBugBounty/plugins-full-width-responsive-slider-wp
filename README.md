@@ -1,0 +1,1 @@
+# plugins-full-width-responsive-slider-wp
