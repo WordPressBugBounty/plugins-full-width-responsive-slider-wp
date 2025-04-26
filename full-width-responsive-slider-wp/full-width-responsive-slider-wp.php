@@ -5,7 +5,7 @@
  * Author URI:https://www.i13websolution.com
  * Description:This is beautiful responsive full width slider plugin.Add any number of images. your full width slider will be ready within few min. 
  * Author:I Thirteen Web Solution 
- * Version:1.1.10
+ * Version:1.1.11
  * Text Domain:full-width-responsive-slider-wp
  * Domain Path: /languages
  */
@@ -1253,6 +1253,7 @@ function fwrsw_responsive_full_width_slider_wp_media_management_func() {
                                                         validExtensions[1]='jpeg';
                                                         validExtensions[2]='png';
                                                         validExtensions[3]='gif';
+                                                        validExtensions[4]='webp';
 
 
                                                         var inarr=parseInt(jQuery.inArray( attachment.subtype, validExtensions));
@@ -1711,10 +1712,12 @@ function fwrsw_responsive_full_width_slider_wp_media_management_func() {
 
                                                                                         var attachment = custom_file_frame.state().get('selection').first().toJSON();
                                                                                         var validExtensions = new Array();
-                                                                                        validExtensions[1] = 'jpg';
-                                                                                        validExtensions[2] = 'jpeg';
-                                                                                        validExtensions[3] = 'png';
-                                                                                        validExtensions[4] = 'gif';
+                                                                                         validExtensions[0]='jpg';
+                                                                                          validExtensions[1]='jpeg';
+                                                                                          validExtensions[2]='png';
+                                                                                          validExtensions[3]='gif';
+                                                                                          validExtensions[4]='webp';
+
                                                                                        
                                                                                         var inarr = parseInt(jQuery.inArray(attachment.subtype, validExtensions));
                                                                                           if (inarr > 0 && attachment.type.toLowerCase() == 'image'){

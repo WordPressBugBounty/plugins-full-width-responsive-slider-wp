@@ -3,9 +3,9 @@ Contributors:nik00726
 Donate link:http://www.i13websolution.com/donate-wordpress_image_thumbnail.php
 Tags:banner slider,responsive slider,full width slider,responsive slideshow,header slider,header banner slider,full slider
 Requires at least:3.0
-Tested up to:6.6
-Version:1.1.10
-Stable tag:1.1.10
+Tested up to:6.8
+Version:1.1.11
+Stable tag:1.1.11
 License:GPLv2 or later
 License URI:http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -114,6 +114,11 @@ This plugin is free for everyone! Since it's released under the GPL, you can use
 
 
 == Changelog ==
+
+= 1.1.11 =
+
+* Added webp image support
+* Tested with WordPress 6.8
 
 
 = 1.1.10 =
