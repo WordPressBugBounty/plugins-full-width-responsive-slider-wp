@@ -3,7 +3,7 @@ Contributors:nik00726
 Donate link:http://www.i13websolution.com/donate-wordpress_image_thumbnail.php
 Tags:banner slider,responsive slider,full width slider,responsive slideshow,header slider,header banner slider,full slider
 Requires at least:3.0
-Tested up to:6.8
+Tested up to:6.9
 Version:1.1.11
 Stable tag:1.1.11
 License:GPLv2 or later
